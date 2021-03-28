@@ -1,0 +1,11 @@
+make wireframe
+
+choose color palette
+
+choose font families
+
+find stock images
+
+write html skeleton
+
+start css
