@@ -1,0 +1,16 @@
+premise: chili honey family business
+
+make wireframe
+
+choose color palette
+
+choose font families
+    Gloria Hallelujah - Title
+    Roboto 400 - normal copy
+    Roboto 900 - subtitles
+
+find stock images
+
+write html skeleton
+
+start css
