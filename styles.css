@@ -1,23 +1,53 @@
 html {
-    background-color: #F1C40F;
+    background-color: #f75c03;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #2274A5;
-}
-
-header {
-    background-image: url(assets/titleImage.jpg);
-    height:600px;
-    width: 100%;
+    border-color: #D90368
 }
 
 nav {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1c40f;
+    margin: 10px;
+    border: 5px solid #d90368;   
+
 }
+
+.navbutton {
+    margin: 5px; 
+    padding: 5px 20px;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+a:link.navbutton {
+    color: #2274a5;
+    text-decoration: none;
+}
+
+a:visited.navbutton {
+    color: #2274a5;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-image: url(assets/titleImage.jpg);
+    background-size: cover;
+    height:600px;
+    margin: 10px;
+    border: 5px solid #D90368;
+    opacity: .8;
+}
+
 
 #title {
     font-family: 'Gloria Hallelujah', sans-serif;
     font-size: 72px;
+    padding-left: 10px;
 }
 
 #about {
@@ -25,7 +55,9 @@ nav {
 }
 
 #productcontainer {
-
+    display: flex;
+    flex: 800px;
+    flex-wrap: wrap;
 }
 
 .product {
@@ -41,11 +73,17 @@ nav {
 }
 
 #employeescontainer {
-
+    display: flex;
+    flex: 800px;
+    flex-wrap: wrap;
 }
 
 .employees {
+    
+}
 
+.employeeimg {
+    flex: 1 200px;
 }
 
 .employeename {
@@ -57,5 +95,5 @@ nav {
 }
 
 footer {
-
+    display: flex;
 }
