@@ -1,0 +1,61 @@
+html {
+    background-color: #F1C40F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2274A5;
+}
+
+header {
+    background-image: url(assets/titleImage.jpg);
+    height:600px;
+    width: 100%;
+}
+
+nav {
+    
+}
+
+#title {
+    font-family: 'Gloria Hallelujah', sans-serif;
+    font-size: 72px;
+}
+
+#about {
+
+}
+
+#productcontainer {
+
+}
+
+.product {
+
+}
+
+.producttitle {
+
+}
+
+.productcopy {
+
+}
+
+#employeescontainer {
+
+}
+
+.employees {
+
+}
+
+.employeename {
+
+}
+
+.employeecopy {
+
+}
+
+footer {
+
+}
