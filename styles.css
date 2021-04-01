@@ -67,37 +67,60 @@ header {
 #productcontainer {
     display: flex;
     flex: 800px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    background-color: #f1c40f;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #D90368;
+    align-content: space-around;
 }
 
 .product {
-
+    flex-shrink: 3;
+    margin: 10px;
+    border: 5px solid #D90368;
+    text-align: center;
+    width: 1fr;
+    padding: 10px;
 }
 
-.producttitle {
-
-}
-
-.productcopy {
-
+.productimg {
+    max-width: 200px;
+    height: auto;
 }
 
 #employeescontainer {
     display: flex;
     flex: 800px;
     flex-wrap: wrap;
+    background-color: #00cc66;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #D90368;
+    align-content: space-around;
 }
 
 .employees {
-    
+    display: flex;
+    flex: 400px;
+    flex-wrap: wrap;
+    background-color: #f1c40f;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #D90368;
+    align-items: center;
 }
 
 .employeeimg {
-    flex: 1 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: auto;
 }
 
 .employeename {
-
+    font-family: 'Gloria Hallelujah', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
 }
 
 .employeecopy {
@@ -105,5 +128,9 @@ header {
 }
 
 footer {
-    display: flex;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #D90368;
+    margin: 10px;
+    
 }
